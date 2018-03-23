@@ -10,11 +10,11 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="username",
-    password="password",
-    like_per_day=1000,
-    comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
+    login="fucklauv",
+    password="asdf1357",
+    like_per_day=2500,
+    comments_per_day=2000,
+    tag_list=['follow4follow', 'f4f', 'cute', 'love','relationships','sad','quotes','couplesgoals', 'goals', 'goalz'],
     tag_blacklist=['rain', 'thunderstorm'],
     user_blacklist={},
     max_like_for_one_tag=50,
@@ -41,7 +41,7 @@ bot = InstaBot(
     ## Will do partial matches; i.e. 'mozart' will block 'legend_mozart'
     ### 'free_followers' will be blocked because it contains 'free'
     unwanted_username_list=[
-        'second', 'stuff', 'art', 'project', 'love', 'life', 'food', 'blog',
+        'second', 'stuff', 'art', 'project','life', 'food', 'blog',
         'free', 'keren', 'photo', 'graphy', 'indo', 'travel', 'art', 'shop',
         'store', 'sex', 'toko', 'jual', 'online', 'murah', 'jam', 'kaos',
         'case', 'baju', 'fashion', 'corp', 'tas', 'butik', 'grosir', 'karpet',
@@ -49,7 +49,7 @@ bot = InstaBot(
         'beauty', 'express', 'kredit', 'collection', 'impor', 'preloved',
         'follow', 'follower', 'gain', '.id', '_id', 'bags'
     ],
-    unfollow_whitelist=['example_user_1', 'example_user_2'])
+    unfollow_whitelist=['gregjames808', 'fuelthegrind', 'lionedm'])
 while True:
 
     #print("# MODE 0 = ORIGINAL MODE BY LEVPASHA")
@@ -66,7 +66,7 @@ while True:
     # DON'T USE MODE 5 FOR A LONG PERIOD. YOU RISK YOUR ACCOUNT FROM GETTING BANNED
     ## USE MODE 5 IN BURST MODE, USE IT TO UNFOLLOW PEOPLE AS MANY AS YOU WANT IN SHORT TIME PERIOD
 
-    mode = 0
+    mode = 2
 
     #print("You choose mode : %i" %(mode))
     #print("CTRL + C to cancel this operation or wait 30 seconds to start")
